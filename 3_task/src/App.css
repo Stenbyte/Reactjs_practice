@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.circle {
+  text-align: center;
+  background: crimson;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 4px dotted blue;
+}
+#root {
+  width: 100%;
+  margin-top: 10rem;
+}
+button {
+  padding: 0.5rem;
+  margin: 0.3rem;
+  background: chartreuse;
+  box-shadow: 0 0 30px black;
+}
