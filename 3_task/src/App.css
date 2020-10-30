@@ -50,13 +50,17 @@
   justify-content: center;
   border: 4px dotted blue;
 }
-#root {
+/* #root {
   width: 100%;
-  margin-top: 10rem;
-}
+} */
 button {
   padding: 0.5rem;
-  margin: 0.3rem;
+  margin-top: 1rem;
   background: chartreuse;
   box-shadow: 0 0 30px black;
+}
+.Ap {
+  text-align: center;
+  height: 75vh;
+  background: cyan;    
 }
