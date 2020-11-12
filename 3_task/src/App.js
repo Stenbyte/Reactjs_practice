@@ -35,18 +35,18 @@ resetHandler = () => {
 
     return (
       <div className='Ap'>
-          <Header  />
-          <p>{this.state.curTime}</p>
-        <div className='circle'>
-          <div>
-            <Circle  isEven={isEven} likes={this.state.likes} color={bgColor}/>
-          {/* <h1>Total Likes: {this.state.likes} </h1> */}
-          <button onClick={this.addHandler}>Add one</button>
-          <button onClick={this.removeHandler}>Remove one</button>
-          <button onClick={this.resetHandler}>Reset</button>
+            <Header  />
+            <p>{this.state.curTime}</p>
+          <div className='circle'>
+              <div>
+                <Circle  isEven={isEven} likes={this.state.likes} color={bgColor}/>
+              {/* <h1>Total Likes: {this.state.likes} </h1> */}
+              <button onClick={this.addHandler}>Add one</button>
+              <button onClick={this.removeHandler}>Remove one</button>
+              <button onClick={this.resetHandler}>Reset</button>
+              </div>
           </div>
-        </div>
-        <Footer />
+           <Footer />
       </div>
     );
   }
