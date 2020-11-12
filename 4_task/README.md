@@ -1,3 +1,3 @@
 task 4
 
-![] (Example.png)
+![](Example.png)
