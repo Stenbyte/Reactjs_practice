@@ -1,11 +1,12 @@
 import React from 'react';
 import Section from '../Section/Section';
+import Form from '../Form/Form.js';
 
 const main = () => {
     return (
-        <div>
-            <Section />
-        </div>
+        <main>
+            <Form />
+        </main>
     );
 };
 
