@@ -1,0 +1,29 @@
+.box {
+    margin-left: 5rem;
+    border-left: 4px double;
+    padding: 1rem;
+    height: 45vh;
+    
+}
+h1 {
+    padding: 1rem;
+}
+.view {
+    height: 60vh;
+    background-color: #e2e2e2;
+}
+p {
+    padding: 1rem;
+    line-height: 2rem;
+}
+.cl::after{
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 0, 0.459);
+    height: 2px;
+    width: 400px;
+}
+#message {
+    height: 50px;
+    width: 150px;
+}
