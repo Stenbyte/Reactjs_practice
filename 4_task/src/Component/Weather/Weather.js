@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-const API = "http://api.weatherstack.com/current";
+const API = "http://api.weatherstack.com/";
 
 const params = {
   access_key: process.env.REACT_APP_API_KEY,
