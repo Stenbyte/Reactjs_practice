@@ -4,14 +4,16 @@ footer {
   color: #fce0d3;
   padding: 2rem;
   text-align: center;
+  /* width: 100%; */
 }
 
 main {
-  min-height: 65vh;
-  background-color: rgba(220, 20, 60, 0.527);
+  width: 90vw;
+  /* background-color: rgba(220, 20, 60, 0.527); */
   color: black;
-  padding-left: 1rem;
-  line-height: 4rem;
+  margin: 0 auto;
+  /* padding-left: 1rem; */
+  /* line-height: 4rem; */
 }
 main p {
   color: black;
